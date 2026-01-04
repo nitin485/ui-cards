@@ -1,0 +1,10 @@
+/* @import "tailwindcss";
+#right::-webkit-scrollbar{
+    display: none;
+} */
+
+@import "tailwindcss";
+
+#right::-webkit-scrollbar{
+    display: none;
+}
