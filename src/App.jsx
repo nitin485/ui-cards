@@ -1,4 +1,4 @@
-import React from 'react'
+
 import  Section1 from './components/section1/section1.jsx'
 
 export default function App() {
