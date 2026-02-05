@@ -20,9 +20,9 @@ function CardTextContent(props) {
         {/* ------------------------------------ */}
         <div className="w-35 flex gap-6 bg-blue-800 rounded-4xl p-2   text-lg text-white ml-10  mt-10">
           <button>{props.user.tag}</button>
-          <button>
+          {/* <button>
             <MoveRight />
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
-import React from "react";
 import Card from "./card";
 import Arrow from "./arrow";
+import  '../../App.css'
 export default function center(props) {
 
   return (
@@ -27,7 +27,9 @@ export default function center(props) {
       </div>
 
       {/* left content  ends here*/}
-      <div className="rightContent  h-full w-2/3 flex py-0 ml-20 gap-4 shrink-0 p-2 overflow-x-auto">
+
+      {/* right content starts here */}
+      <div className="rightContent  h-full w-2/3 flex py-0 ml-20 gap-4 shrink-0 p-2 overflow-x-auto ">
 
         {props.user.map((user, index) => (
           <Card key={index} user={user} index={index} />

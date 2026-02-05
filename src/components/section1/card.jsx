@@ -4,7 +4,7 @@ export default function card(props) {
 
   return (
     <>
-      <div className=" h-full   shrink-0  rounded-4xl  relative   w-70 ml-2  overflow-x-auto">
+      <div className=" h-full   shrink-0  rounded-4xl  relative   w-70 ml-2  overflow-x-auto ">
         <img
           src={props.user.imgs}
           alt="image"

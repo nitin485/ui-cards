@@ -5,6 +5,6 @@
 
 @import "tailwindcss";
 
-#right::-webkit-scrollbar{
+.rightContent::-webkit-scrollbar{
     display: none;
 }
